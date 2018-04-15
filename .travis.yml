@@ -5,6 +5,6 @@ deploy:
   provider: lambda
   function_name: "lambda-test"
   region: "us-east-1"
-  role: "arn:aws:iam::938368007775:role/lambda_basic_execution"
+  role: $LAMBDA_ARN
   runtime: "nodejs6.10"
   handler_name: "index"
