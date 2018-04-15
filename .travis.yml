@@ -1,4 +1,10 @@
 language: node_js
 node_js:
 - "6.10"
-
+deploy:
+  provider: lambda
+  function_name: "lambda-test"
+  region: "us-east-1"
+  role: "arn:aws:iam::938368007775:role/lambda_basic_execution"
+  runtime: "nodejs6.10"
+  handler_name: "index"
