@@ -1,0 +1,21 @@
+{
+  "name": "ci-test-travis-codedeploy",
+  "version": "1.0.0",
+  "description": "Test travisci and cdeploy",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://rampi@github.com/rampi/ci-test-travis-codedeploy.git"
+  },
+  "keywords": [
+    "travis",
+    "aws",
+    "codedeploy"
+  ],
+  "author": "rmesino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rampi/ci-test-travis-codedeploy/issues"
+  },
+  "homepage": "https://github.com/rampi/ci-test-travis-codedeploy#readme"
+}
