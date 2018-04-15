@@ -1,0 +1,4 @@
+language: node_js
+env:
+- "6.10"
+
